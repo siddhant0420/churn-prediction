@@ -1,70 +1,70 @@
 Overview
 
-This project aims to predict customer churn using machine learning techniques. 
-By analyzing customer behavior and service usage patterns, the model identifies customers who are likely to leave, helping businesses take proactive measures to retain them.
+  This project aims to predict customer churn using machine learning techniques. 
+  By analyzing customer behavior and service usage patterns, the model identifies customers who are likely to leave, helping businesses take proactive measures to retain them.
 
 Dataset
 
-Source: Telco Customer Churn Dataset (Kaggle)
+  Source: Telco Customer Churn Dataset (Kaggle)
 
-Description: The dataset contains information about customers, including demographics, account details, and service usage.
+  Description: The dataset contains information about customers, including demographics, account details, and service usage.
 
-Target Variable: Churn (Yes/No)
+  Target Variable: Churn (Yes/No)
 
 
 Technologies Used
 
-Programming Language: Python
+  Programming Language: Python
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, XGBoost
+  Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, XGBoost
 
-Model Deployment: Flask/Streamlit (if applicable)
+  Model Deployment: Flask/Streamlit (if applicable)
 
 
 Project Workflow
 
-1. Data Preprocessing
+  1. Data Preprocessing
 
-Handling missing values
+  Handling missing values
 
-Encoding categorical features
+  Encoding categorical features
 
-Feature selection and scaling
-
-
-
-2. Exploratory Data Analysis (EDA)
-
-Visualizing customer demographics and churn distribution
-
-Correlation analysis of features
-
-
-3. Model Development
-
-Implemented multiple classification models:
-
-Logistic Regression
-
-XGBoost (Best performing model)
-
-
-Addressed class imbalance using SMOTE
-
-Hyperparameter tuning with GridSearchCV
+  Feature selection and scaling
 
 
 
-4. Model Evaluation
+  2. Exploratory Data Analysis (EDA)
 
-Metrics used: Accuracy, MAE , MSE.
+  Visualizing customer demographics and churn distribution
 
-Confusion matrix analysis
+  Correlation analysis of features
 
-Results
 
-Best model: XGBoost
+  3. Model Development
 
-Achieved 76 % accuracy (r
+  Implemented multiple classification models:
 
-Feature importance analysis shows that contract type, tenure, and monthly charges are key indicators of churn
+  Logistic Regression
+
+  XGBoost (Best performing model)
+
+
+  Addressed class imbalance using SMOTE
+
+  Hyperparameter tuning with GridSearchCV
+
+
+
+  4. Model Evaluation
+
+  Metrics used: Accuracy, MAE , MSE.
+
+  Confusion matrix analysis
+
+  Results
+
+  Best model: XGBoost
+
+  Achieved 76 % accuracy (r
+
+  Feature importance analysis shows that contract type, tenure, and monthly charges are key indicators of churn
