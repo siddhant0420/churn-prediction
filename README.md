@@ -63,6 +63,6 @@ Project Workflow
 
   Best model: XGBoost
 
-  Achieved 76 % accuracy (r
+  Achieved 76 % accuracy 
 
   Feature importance analysis shows that contract type, tenure, and monthly charges are key indicators of churn
