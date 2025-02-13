@@ -18,8 +18,6 @@ Technologies Used
 
   Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, XGBoost
 
-  Model Deployment: Flask/Streamlit (if applicable)
-
 
 Project Workflow
 
